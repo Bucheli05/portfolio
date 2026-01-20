@@ -30,7 +30,7 @@ export const Projects = () => {
             description: "My personal portfolio website showcasing my projects and experience as a full stack developer.",
             technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "Motion"],
             image: `${import.meta.env.BASE_URL}personalPortfolio.png`,
-            link: "https://jose-luis-portfolio.vercel.app/"
+            link: "https://bucheli05.github.io/portfolio/"
         },
         {
             title: "Stock Analysis Dashboard",
