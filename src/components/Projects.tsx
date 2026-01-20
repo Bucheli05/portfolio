@@ -15,28 +15,28 @@ export const Projects = () => {
             title: "3D Portfolio",
             description: "Interactive 3D portfolio built to explore React Three Fiber capabilities and physics integration.",
             technologies: ["React", "Three.js", "React Three Fiber", "TypeScript", "Drei", "Rapier"],
-            image: "/portfolio3d.png",
+            image: `${import.meta.env.BASE_URL}portfolio3d.png`,
             link: "https://portfolio-jose-luis.vercel.app/"
         },
         {
             title: "Visual Novel with 3D Scenes",
             description: "Interactive visual novel featuring immersive 3D scenes with physics-based interactions and real-time rendering.",
             technologies: ["React Three Fiber", "Drei", "Rapier", "TypeScript", "Tailwind", "Firebase", "Vite"],
-            image: "/saekano.png",
+            image: `${import.meta.env.BASE_URL}saekano.png`,
             link: "https://github.com/Bucheli05/Saekano-vn"
         },
         {
             title: "Personal Portfolio",
             description: "My personal portfolio website showcasing my projects and experience as a full stack developer.",
             technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "Motion"],
-            image: "/personalPortfolio.png",
+            image: `${import.meta.env.BASE_URL}personalPortfolio.png`,
             link: "https://jose-luis-portfolio.vercel.app/"
         },
         {
             title: "Stock Analysis Dashboard",
             description: "Real-time stock analysis dashboard with interactive charts and financial data visualization.",
             technologies: ["React", "TypeScript", "Chart.js", "Financial APIs", "GO", "Tailwind"],
-            image: "/stockDashboard.png",
+            image: `${import.meta.env.BASE_URL}stockDashboard.png`,
             link: ""
         }
 

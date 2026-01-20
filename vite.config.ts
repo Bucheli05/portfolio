@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite' // 1. Importar
 import path from 'path'
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/',
+  base: '/portfolio/',
   plugins: [
     react({
       babel: {

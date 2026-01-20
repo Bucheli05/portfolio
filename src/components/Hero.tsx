@@ -19,7 +19,7 @@ export const Hero = () => {
                 {shapes.map((shape) => (
                     <motion.div
                         key={shape.id}
-                        className="absolute rounded-full bg-gradient-to-br from-cyan-50 to-cyan-100 opacity-30"
+                        className="absolute rounded-full bg-linear-to-br from-cyan-50 to-cyan-100 opacity-30"
                         style={{
                             width: shape.size,
                             height: shape.size,
