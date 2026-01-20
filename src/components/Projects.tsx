@@ -19,11 +19,11 @@ export const Projects = () => {
             link: "https://portfolio-jose-luis.vercel.app/"
         },
         {
-            title: "Visual Novel with 3D Scenes",
-            description: "Interactive visual novel featuring immersive 3D scenes with physics-based interactions and real-time rendering.",
-            technologies: ["React Three Fiber", "Drei", "Rapier", "TypeScript", "Tailwind", "Firebase", "Vite"],
-            image: `${import.meta.env.BASE_URL}saekano.png`,
-            link: "https://github.com/Bucheli05/Saekano-vn"
+            title: "Crops Observatories",
+            description: "Built new observatories with ETL pipelines and AI RAG system for retrieving and processing scientific agricultural data.",
+            technologies: ["ETL", "AI/RAG", "Data Engineering", "Scientific Data", "Python", "Pandas", "FastAPI"],
+            image: `${import.meta.env.BASE_URL}obs.png`,
+            link: "https://cropobservatoriesalliance.org/es"
         },
         {
             title: "Personal Portfolio",
@@ -38,7 +38,16 @@ export const Projects = () => {
             technologies: ["React", "TypeScript", "Chart.js", "Financial APIs", "GO", "Tailwind"],
             image: `${import.meta.env.BASE_URL}stockDashboard.png`,
             link: ""
-        }
+        },
+        {
+            title: "Visual Novel with 3D Scenes",
+            description: "Interactive visual novel featuring immersive 3D scenes with physics-based interactions and real-time rendering.",
+            technologies: ["React Three Fiber", "Drei", "Rapier", "TypeScript", "Tailwind", "Firebase", "Vite"],
+            image: `${import.meta.env.BASE_URL}saekano.png`,
+            link: "https://github.com/Bucheli05/Saekano-vn"
+        },
+
+
 
     ];
 
